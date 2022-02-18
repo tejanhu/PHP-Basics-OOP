@@ -31,7 +31,7 @@ echo $b->name . '<br />';
 
 echo '<hr />';
 
-$c = $b;
+$c = &$b;
 $c -> name = "cranberry juice";
 echo $a->name . '<br />';
 echo $b->name . '<br />';
